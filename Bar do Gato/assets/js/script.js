@@ -42,7 +42,7 @@ window.onload = function(){
     });
 };
     window.onresize=function(){
-if(document.body.clientWidth > 600){
+if(document.body.clientWidth > 1000){
     document.querySelector("nav ul").style.display="flex"
     document.querySelector(".menuMobile").style.display="none"
     
