@@ -1,6 +1,6 @@
-/* {
+* {
     font-family: Arial;
-}*/
+}
 
 body {
     background-color:#F5F5DC;
@@ -167,8 +167,8 @@ nav a:hover {
 }
 
 .heading_title h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 100;
+    font-family: 'sans-serif';
+    font-weight: bold;
     font-size: 45px;
     color: #1c1c1c;
     
