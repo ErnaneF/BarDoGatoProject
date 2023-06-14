@@ -89,9 +89,9 @@ nav a:hover {
 .banner {
     display:flex;
     justify-content:center;
-    background-image:url(../images/banner2.jpeg);
+    background-image:url(../images/banner_gato1.jpg);
     background-position:center;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 46vw;
 }
