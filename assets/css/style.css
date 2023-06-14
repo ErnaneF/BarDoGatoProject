@@ -662,4 +662,7 @@ html {
     .heading_title img {
         width: 53%;
     }
+    .tel h2 {
+        font-size: 30px; 
+    }
 }
