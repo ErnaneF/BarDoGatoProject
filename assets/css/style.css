@@ -104,14 +104,16 @@ nav a:hover {
 }
 
 .content h3 {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: serif, Helvetica, Arial;
     margin:0;
     padding: 10px;
     color: #1c1c1c;
 }
 
 .content h6 {
-    font-size: 15px;
+    font-size: 17px;
+    font-family: serif, Helvetica, Arial;
     color:#222f3e;
     margin: 15px;
 }
@@ -137,6 +139,42 @@ nav a:hover {
     height: 6vh;
     object-fit: cover;
     margin: 0 0 10px 0;
+}
+
+.sobre-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sobre-imagem {
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height:auto;
+    display: block;
+    transition: 0.4s ease;
+}
+
+.sobre-texto {
+    flex:1;
+}
+
+.sobre-texto h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color:#1c1c1c;
+}
+
+.sobre-texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:#222f3e;
 }
 
 .bebidas {
@@ -228,28 +266,44 @@ nav a:hover {
     transform: translate(0px, -8px);
 }
 
-.detalhes {
-    padding: 10px;
+/* parte que trata dos detalhes do cardápio*/
+
+.detalhes>span {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
 }
 
-.sub-detalhes {
+.meia {
     display: flex;
     justify-content: space-between;
+    padding: 10px 15px 10px 15px;
 }
 
-.sub-detalhes>h5 {
+.inteira {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+}
+
+.meia>span {
     color: #1c1c1c;
-    font-size: 18px;
-    margin: 0;
-    padding-top: 13px;
+    font-size: 19px;
+    font-family: serif;
+    font-weight: bold;
+}
+.inteira>span {
+    color: #1c1c1c;
+    font-size: 19px;
+    font-family: serif, Helvetica, Arial;
+    font-weight: bold;
 }
 
-.detalhes>p {
-    font-size: 15px;
-    align-self: stretch;
-    color:#222f3e;
-}
- 
+/* parte que trata dos detalhes do cardápio*/ 
+
 .delivery {
     position: relative;
     width: 100%;
@@ -310,42 +364,6 @@ nav a:hover {
     width: 90%;
     margin: 0 auto;
     padding: 10px 20px;
-}
-
-.sobre-nos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.sobre-imagem {
-    flex:1;
-    margin-right: 40px;
-    overflow: hidden;
-}
-
-.sobre-imagem img {
-    max-width: 100%;
-    height:auto;
-    display: block;
-    transition: 0.4s ease;
-}
-
-.sobre-texto {
-    flex:1;
-}
-
-.sobre-texto h2 {
-    font-size: 22px;
-    margin-bottom: 15px;
-    color:#1c1c1c;
-}
-
-.sobre-texto p {
-    font-size: 14px;
-    line-height: 1.5;
-    color:#222f3e;
 }
 
 .mapBox {
@@ -452,7 +470,7 @@ html {
     padding-top: 85px;
 }
 #bebidas {
-    padding-top: 110px;
+    padding-top: 100px;
 }
 #cardapio {
     padding-top: 100px;
