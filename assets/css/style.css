@@ -58,7 +58,6 @@ nav ul {
 
 nav a {
     display:flex;
-    text-decoration:none;
     padding:8px;
     color:#808080;
 }
@@ -129,13 +128,13 @@ nav a:hover {
     font-family: 'sans-serif';
     font-weight: bold;
     margin: 0;
-    font-size: 50px;
+    font-size: 3rem;
     color: #1c1c1c;
     
 }
 
 .heading_title img {
-    width: 260px;
+    width: 16rem;
     height: 6vh;
     object-fit: cover;
     margin: 0 0 10px 0;
@@ -165,14 +164,9 @@ nav a:hover {
     flex:1;
 }
 
-.sobre-texto h2 {
-    font-size: 22px;
-    margin-bottom: 15px;
-    color:#1c1c1c;
-}
-
 .sobre-texto p {
-    font-size: 16px;
+    font-size: 1.3vmax;
+    font-family:'Calibri';
     line-height: 1.5;
     color:#222f3e;
 }
@@ -266,8 +260,6 @@ nav a:hover {
     transform: translate(0px, -8px);
 }
 
-/* parte que trata dos detalhes do cardápio*/
-
 .detalhes>span {
     display: flex;
     justify-content: center;
@@ -301,8 +293,6 @@ nav a:hover {
     font-family: serif, Helvetica, Arial;
     font-weight: bold;
 }
-
-/* parte que trata dos detalhes do cardápio*/ 
 
 .delivery {
     position: relative;
@@ -527,28 +517,6 @@ html {
     .social_media a {
         padding: 8px;
     }
-}
-
-@media (max-width:640px) {
-    .banner {
-        height: 350px;
-    }
-}
-
-@media (max-width: 768px) {
-    .heading {
-        padding:0px 20px;
-    }
-    .heading h1 {
-        font-size: 36px;
-    }
-    .heading p {
-        font-size: 17px;
-        margin-bottom: 0px;
-    }
-    .container2 {
-        padding:0px;
-    }
     .sobre-nos {
         padding: 20px;
         flex-direction: column;
@@ -560,6 +528,18 @@ html {
     .sobre-texto {
         padding: 0px;
         font-size: 16px;
+    }
+}
+
+@media (max-width:640px) {
+    .banner {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        padding:0px;
     }
     .pre-btn,
     .nxt-btn,
